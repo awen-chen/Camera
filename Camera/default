@@ -1,0 +1,9 @@
+#Default server configuration
+server {
+	listen 8080;
+	listen [::]:8080;
+	server_name hanlingleaf.top www.hanlingleaf.top 47.96.238.48 aaa.xiaoqi.space;
+
+	root /Camera/HTML;
+	index index.html;
+}
